@@ -21,7 +21,7 @@ const routes = [
     method: 'GET',
     path: '/',
     handler: () => {
-      console.log('halo)
+      console.log('halo')
     },
   },
   {
