@@ -19,6 +19,13 @@ const routes = [
   },
   {
     method: 'GET',
+    path: '/',
+    handler: () => {
+      console.log('halo)
+    },
+  },
+  {
+    method: 'GET',
     path: '/notes/{id}',
     handler: getNoteByIdhHandler
   },
